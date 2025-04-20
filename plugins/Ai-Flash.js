@@ -65,8 +65,8 @@ async function sendInteractiveMessage(m, conn, text) {
                 name: "cta_url",  
                 buttonParamsJson: JSON.stringify({  
                   display_text: "قــنــاتــنــا 🔰",  
-                  url: "https://whatsapp.com/channel/0029Vb0WYOu2f3EAb74gf02h",  
-                  merchant_url: "https://whatsapp.com/channel/0029Vb0WYOu2f3EAb74gf02h"  
+                  url: "https://whatsapp.com/channel/0029VarLZsfADTOELyrKk52q",  
+                  merchant_url: "https://whatsapp.com/channel/0029VarLZsfADTOELyrKk52q"  
                 })  
               }
             ]
