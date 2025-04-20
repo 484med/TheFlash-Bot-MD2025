@@ -10,7 +10,7 @@ const handler = async (m, { conn, text }) => {
     if (!text) {
       return conn.reply(
         m.chat,
-        '*مرحبًا! أنا ديب-سيك ذكاء اصطناعي، كيف يمكنني مساعدتك؟*\nمـثال:\n*.ديب من هو رئيس كوريه الجنوبية؟*\n*.ديب كيف حالك؟!*\n\n> *By Coding Mori*\n> *By API Shawza*',
+        '*مرحبًا! أنا ديب-سيك ذكاء اصطناعي، كيف يمكنني مساعدتك؟*\nمـثال:\n*.ديب من هو رئيس كوريه الجنوبية؟*\n*.ديب كيف حالك؟!*\n\n> *By Coding Dragon*\n> *By API Shawza*',
         m
       );
     }
