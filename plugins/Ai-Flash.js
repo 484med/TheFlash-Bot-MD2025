@@ -7,9 +7,9 @@ const handler = async (m, { conn, text }) => {
     const message = `*❐═━━━═╊⊰🤖⊱╉═━━━═❐*
 *❐┃ هـذا أمـر ذكـاء اصـطـنـاعـي┃🛑❯*
 
-*↞┇ مثال ↞ .فلاش من هو رئيس كوريا الجنوبية؟*
+*↞┇ مثال ↞ .دراغون من هو رئيس كوريا الجنوبية؟*
 *❐═━━━═╊⊰🤖⊱╉═━━━═❐*
-> *𒆜 MoriBot-MD 𒆜*`;
+> *𒆜 DragonBot-MD 𒆜*`;
 
     await sendInteractiveMessage(m, conn, message);
     return;
@@ -81,6 +81,6 @@ async function sendInteractiveMessage(m, conn, text) {
 
 handler.help = ['M O R I'];
 handler.tags = ['M E T A'];
-handler.command = /^(فلاش|ميتا|لما)$/i;
+handler.command = /^(دراغون|ميتا|لما)$/i;
 
 export default handler;
