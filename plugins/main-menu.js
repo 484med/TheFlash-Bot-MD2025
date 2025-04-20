@@ -28,7 +28,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   const zack = 'https://files.catbox.moe/a23k6p.jpg'
   const mentionId = m.key.participant || m.key.remoteJid;
  
-conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { header: { title: `harley`}, body: { text: `˼⚡˹↜ مـࢪحـبـا بـك/ي @${mentionId.split('@')[0]}
+conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { header: { title: `harley`}, body: { text: `˼🐲˹↜ مـࢪحـبـا بـك/ي @${mentionId.split('@')[0]}
 > ˼🪪˹↜ مــعــلــومــاتــك ↶
 ╮───────────────────⟢ـ
 ┆⚡↜ بـريـمـيـوم↞⌊ ${user.premiumTime > 0 ? 'مــمـ🔱ـيز' : (isPrems ? 'مــمـ🔱ـيز' : 'عــ🍁ــادي') || ''} ⌉
@@ -39,12 +39,12 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
 ╯───────────────────⟢ـ
 > ˼🤖˹↜ الــبــوت↶
 ╮───────────────────⟢ـ
-┆⚙️ ↜اسـم الـبـوت↶﹝𝐅𝐋𝐀𝐒𝐇﹞
-┆🪄 ↜الـمـطـور ↶﹝𝐌𝐨𝐫𝐢﹞
+┆⚙️ ↜اسـم الـبـوت↶﹝𝑫𝒓𝒂𝒈𝒐𝒏﹞
+┆🪄 ↜الـمـطـور ↶﹝𝑩𝒍𝒂𝒄𝒌 𝑫𝒓𝒂𝒈𝒐𝒏﹞
 ┆📌 ↜الـتـشـغـيـل ↶﹝${uptime}﹞
 ┆🔖 ↜الــمــســتـخـدمـيـن ↶﹝${rtotalreg}﹞
 ╯───────────────────⟢ـ
-> © 𝐌𝐨𝐫𝐢 2025`,subtitle: "Araab Zack",},header: { hasMediaAttachment: true,...(await prepareWAMessageMedia({ image : { url: zack } }, { upload: conn.waUploadToServer }, {quoted: m}))},
+> © Dragon 2025`,subtitle: "Araab Zack",},header: { hasMediaAttachment: true,...(await prepareWAMessageMedia({ image : { url: zack } }, { upload: conn.waUploadToServer }, {quoted: m}))},
                     contextInfo: {
                         mentionedJid: [m.sender],
                         isForwarded: false,
@@ -57,8 +57,8 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                                     title: '⌈🛡╎الــقــوائـــم╎🛡⌋',
                                     sections: [
                                         {
-                                            title: 'مــرحـ🛡ـبــا بــك فـي مــ☑هــام فلاش بـ🤖ـوت',
-                                            highlight_label: '𝐌𝐨𝐫𝐢',
+                                            title: 'مــرحـ🛡ـبــا بــك فـي مــ☑هــام دراغون بـ🤖ـوت',
+                                            highlight_label: '𝑫𝒓𝒂𝒈𝒐𝒏',
                                             rows: [
                                                 {
                                                     header: 'الــقـ👑ـســم الـاول',
@@ -128,7 +128,7 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                      },
                      {
                name: "cta_url",
-               buttonParamsJson: '{"display_text":"⌈📲╎قـنـاة الــبــوت╎📲⌋","url":"https://whatsapp.com/channel/0029Vb0WYOu2f3EAb74gf02h","merchant_url":"https://whatsapp.com/channel/0029Vb0WYOu2f3EAb74gf02h"}'
+               buttonParamsJson: '{"display_text":"⌈📲╎قـنـاة الــبــوت╎📲⌋","url":"https://whatsapp.com/channel/0029VarLZsfADTOELyrKk52q","merchant_url":"https://whatsapp.com/channel/0029VarLZsfADTOELyrKk52q"}'
                             }
                         ]
                     }
